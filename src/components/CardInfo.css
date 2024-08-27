@@ -1,0 +1,29 @@
+article{
+    background-color: rgb(53, 53, 53);
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction:row;
+    gap: 20px;
+    color: rgb(210, 210, 210);
+    & img {
+       max-height:300px
+    }
+}
+
+.title-card{
+    font-size: 50px;
+    text-align: center;
+}
+.info-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    & p {
+        font-size: 20px;
+    }
+
+}
