@@ -3,3 +3,12 @@ section{
     padding: 20px 50px !important;
     gap: 10px;
 }
+@media (max-width:650px) {
+    section {
+        max-width: 90%;
+        max-height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0 !important;
+    }
+}
